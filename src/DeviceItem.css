@@ -1,0 +1,68 @@
+/* DeviceItem.css */
+
+.device-card {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .device-card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .device-card__header h3 {
+    margin: 0;
+  }
+  
+  .device-card__actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .device-card__details {
+    margin-top: 10px;
+  }
+  
+  .device-card__details p {
+    margin: 5px 0;
+  }
+  
+  .device-card__edit-form {
+    margin-top: 10px;
+  }
+  /* Add these styles to DeviceItem.css */
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .cancel-button,
+  .save-button {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #ddd;
+  }
+  
+  .save-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+  }
+  
+  
